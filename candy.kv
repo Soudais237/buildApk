@@ -1,0 +1,20 @@
+#:import Tableau Tableau
+#:import Tuile Tuile
+
+
+Tableau:
+    canvas:
+        Color:
+            rgba: 1, 1, 1, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+
+Tuile:
+    font_size: 20
+    color: self.couleur
+    background_color: self.couleur
+    background_normal: ''
+    allow_stretch: True
+    keep_ratio: False
